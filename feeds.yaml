@@ -1,0 +1,115 @@
+# Cross-Domain Collision Detector — RSS Feed Config
+# Každý feed má přiřazenou doménu pro cross-domain analýzu
+# Přidej/odeber feeds dle potřeby
+
+feeds:
+
+  # NEUROVĚDA & PSYCHOLOGIE
+  - url: https://www.psychologytoday.com/intl/blog/feed
+    domain: psychology
+    label: Psychology Today
+
+  - url: https://feeds.feedburner.com/braindecoder
+    domain: neuroscience
+    label: Brain Decoder
+
+  - url: https://www.apa.org/rss/news.xml
+    domain: psychology
+    label: APA News
+
+  # SOCIOLOGIE & DEMOGRAFIE
+  - url: https://sociologicalscience.com/feed/
+    domain: sociology
+    label: Sociological Science
+
+  - url: https://www.pewresearch.org/feed/
+    domain: demography
+    label: Pew Research
+
+  - url: https://ifstudies.org/blog/feed
+    domain: sociology
+    label: Institute for Family Studies
+
+  # URBANISMUS
+  - url: https://www.citylab.com/feeds/posts/default
+    domain: urbanism
+    label: Bloomberg CityLab
+
+  - url: https://nextcity.org/feed
+    domain: urbanism
+    label: Next City
+
+  # POLITIKA & POLICY
+  - url: https://feeds.feedburner.com/Brookings
+    domain: policy
+    label: Brookings Institution
+
+  - url: https://www.politico.eu/feed/
+    domain: politics
+    label: Politico Europe
+
+  - url: https://foreignpolicy.com/feed/
+    domain: politics
+    label: Foreign Policy
+
+  # AI ETIKA & DEVELOPMENT
+  - url: https://ainowinstitute.org/feed
+    domain: ai_ethics
+    label: AI Now Institute
+
+  - url: https://www.technologyreview.com/feed/
+    domain: ai_development
+    label: MIT Technology Review
+
+  - url: https://venturebeat.com/category/ai/feed/
+    domain: ai_development
+    label: VentureBeat AI
+
+  # KLIMATICKÁ MIGRACE
+  - url: https://www.internal-displacement.org/feed
+    domain: climate_migration
+    label: IDMC
+
+  - url: https://www.climatemigration.org.uk/feed/
+    domain: climate_migration
+    label: Climate Migration Portal
+
+  # NÁBOŽENSTVÍ & KOMUNITY
+  - url: https://religionnews.com/feed/
+    domain: religion
+    label: Religion News Service
+
+  - url: https://www.commonwealmagazine.org/rss.xml
+    domain: religion
+    label: Commonweal
+
+  # FMCG & SPOTŘEBA
+  - url: https://www.foodnavigator.com/RSS-feeds/Editorial-RSS-feeds/FoodNavigator.com-news
+    domain: fmcg
+    label: Food Navigator
+
+  - url: https://www.fooddive.com/feeds/news/
+    domain: fmcg
+    label: Food Dive
+
+  - url: https://www.beveragedaily.com/RSS-feeds/Editorial-RSS-feeds/BeverageDaily.com-news
+    domain: fmcg
+    label: Beverage Daily
+
+  # MÉDIA & KULTURA
+  - url: https://www.niemanlab.org/feed/
+    domain: media
+    label: Nieman Lab
+
+  - url: https://www.theatlantic.com/feed/all/
+    domain: media
+    label: The Atlantic
+
+  # ZDRAVÍ & WELLBEING
+  - url: https://www.statnews.com/feed/
+    domain: health
+    label: STAT News
+
+  - url: https://wellcomecollection.org/stories/W_LtKSQAACUAop1b/rss
+    domain: health
+    label: Wellcome Collection
